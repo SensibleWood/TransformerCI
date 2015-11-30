@@ -15,9 +15,9 @@ Then cd into the repository and execute:
 ./run-demo.sh
 ```
 
-When the server has successfully booted you'll be able to access the Jenkins homepage at [http://localhost:8080](http://localhost:8080). Before you can run the demo end-to-end you'll need to add your AWS credentials at Manage Jenkins>Configure System>S3 (AWS Key and Secret). 
+When the server has successfully booted you'll be able to access the Jenkins homepage at [http://localhost:8080](http://localhost:8080). Before you can run the demo end-to-end you'll need to add your AWS credentials at Manage Jenkins>Configure System>S3 (AWS Key and Secret). If you don't do this the build will be marked unstable.
 
-Once you've done this, trigger the demo by committing a change to the git repository under the folder ./python. This shell script will do this for you:
+Once you've added the key and secret, trigger the demo by committing a change to the git repository under the folder ./python. This shell script will do it for you:
 
 
 ```
