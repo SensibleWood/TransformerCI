@@ -1,0 +1,9 @@
+.idea
+*.db
+*.rdb
+ssl/*
+**/__pycache__/**
+*.pyc
+.DS_Store
+.vagrant
+jenkins.zip
