@@ -20,7 +20,7 @@ git clone https://github.com/SensibleWood/TransformerWebApp.git
 
 * Create an S3 bucket called "transformerdemo"
 
-Then cd into the repository and execute:
+Then cd into the TransformerCI repository and execute:
 
 ```
 ./run-demo.sh
