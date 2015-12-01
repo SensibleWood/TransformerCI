@@ -6,7 +6,12 @@ This project was created to demonstrate a use case for API Transformer and accom
 
 This demo uses Docker to run a container that starts Jenkins with a pre-build configuration. Before running the project you need to:
 
-* Clone this repository
+* Clone this repository recursively:
+
+```
+git clone --recursive https://github.com/SensibleWood/TransformerCI.git
+```
+
 * Create an S3 bucket called "transformerdemo"
 
 Then cd into the repository and execute:
